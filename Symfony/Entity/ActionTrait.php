@@ -2,6 +2,7 @@
 namespace Magice\Symfony\Entity;
 
 use Doctrine\ORM\EntityManager;
+use Magice\Symfony\Exception\EntityValidatorException;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 trait ActionTrait
