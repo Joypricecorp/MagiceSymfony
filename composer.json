@@ -1,0 +1,25 @@
+{
+    "name":         "magice/symfony",
+    "description":  "Symfony common task",
+    "keywords":     ["symfony"],
+    "type":         "library",
+    "license":      "MIT",
+    "authors":     [
+        {
+            "name":  "ツ Liverbool",
+            "email": "nukboon@gmail.com"
+        }
+    ],
+    "require":      {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "Magice\\Symfony": "" }
+    },
+    "target-dir": "Magice",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        }
+    }
+}
